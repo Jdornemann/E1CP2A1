@@ -17,7 +17,7 @@ p.titulo {
 	align-items: center;
 	display: flex;
 	justify-content: center;
-	line-height: 50px;
+	line-height: 40px;
 	
   }
 
@@ -25,57 +25,8 @@ p.titulo {
 	font-size: 100%;
 	color:white;
 	text-align:center;
-
+	font-weight: bold;
   }
-
-#seccion1{
- 
-  background-color: brown;
-  width: 100%;
-  height: 180px;
-  display: block;
-
-}
-#seccion2
-{
-	background-color: lightblue;
-	width: 100%;
-	height: 400px;
-	display: block;
-}
-
-.seccion3
-{
-	width: 100%;
-	height: 100px;
-	position: relative;
-    font-family: Arial;
-}
-
-.seccion3 > .hijoimg {
-
-	 width: 100%; 
-	 height: fit-content;
-  }
-
-  .text-block {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-   
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-  #seccion4
-  {
-	  background-color: white;
-	  width: 100%;
-	  height: 200px;
-	  display: block;
-  }
-
 
 .centeredimg {
 	display: block;
@@ -86,4 +37,94 @@ p.titulo {
 }
 
 
+.box-set {
+	background: #eaeaed;
+  }
+  .box.box-1 {
+	background:#A1243A;
+	height: 250px;
+	width: 100%;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+  }
+  .box.box-2 {
+	background:#1489BD;
+	height: 500px;
+	width: 100%;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.box.box-3 {
+	background: black;
+	height: 400px;
+	width: 100%;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+  }
+  .box.box-4 {
+	background: white;
+	height: 300px;
+	width: 100%;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+  }
 
+  .box.box-3 > .hijoimg {
+	height: 400px;
+	width: 100%; 
+	height: fit-content;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+ }
+
+ .text-block.block1 {
+    position: absolute;
+    bottom: 40px;
+    right: 10px;
+	text-align: right;
+    color: white;
+    padding-left: 20px;
+	padding-right: 0px;
+	font-family: "El Rio Lobo";
+	font-size: 250%;
+	color:#F1AE3F;
+
+ }
+ .text-block.block2 {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+   text-align: right;
+    color: white;
+    padding-left: 20px;
+	padding-right: 0px;
+	font-weight: bold;
+
+ }
+ .text-block.block3 {
+  
+    text-align: center;
+    color: white ;
+	font-family: "El Rio Lobo";
+	font-size: 250%;
+	color:black;
+
+ }
+
+ ul{
+    list-style-type: none;
+}
+li{
+
+	padding: 10px;
+}
